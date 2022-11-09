@@ -1,0 +1,337 @@
+[
+  {
+    "id": "1",
+    "dish": "Cold Mezzah",
+    "name": "Hummus",
+    "ingredients": [
+      "Bread",
+      "Tahini",
+      "Chickpeas",
+      "Turnip pickles",
+      "Radish",
+      "Pine nuts",
+      "Aleppo peppers",
+      "Extra Virgen Olive Oil"
+    ],
+    "price": "10",
+    "diet": ["Vegan", "Gluten Free"],
+    "img": "./img/Hummus.jpg"
+  },
+  {
+    "id": "2",
+    "dish": "Cold Mezzah",
+    "name": "Hummus Kawarma",
+    "ingredients": [
+      "Bread",
+      "Tahini",
+      "Chickpeas",
+      "Turnip pickles",
+      "Radish",
+      "Pine nuts",
+      "Aleppo peppers",
+      "Extra Virgen Olive Oil",
+      "slow-cooked lamb"
+    ],
+    "price": "13",
+    "diet": ["Dairy Free", "Gluten Free"],
+    "img": "./img/Hummus-kawarma.jpg"
+  },
+  {
+    "id": "3",
+    "dish": "Cold Mezzah",
+    "name": "Muhamarah",
+    "ingredients": [
+      "Bread",
+      "Roasted capsicum",
+      "Chilli",
+      "Walnuts",
+      "Tahini",
+      "Pomegranate molasses",
+      "Nigella seeds",
+      "Extra Virgen Olive Oil"
+    ],
+    "price": "15",
+    "diet": ["Vegan", "Gluten Free"],
+    "img": "./img/Hummus-kawarma.jpg"
+  },
+  {
+    "id": "4",
+    "dish": "Cold Mezzah",
+    "name": "Baba Ganoush",
+    "ingredients": [
+      "Bread",
+      "Eggplant",
+      "Capsicum",
+      "Onion",
+      "Garlic",
+      "Tomato",
+      "Coriander",
+      "Lemon",
+      "Pomegranate molasses",
+      "Pomegranate seeds",
+      "Extra Virgen Olive Oil"
+    ],
+    "price": "16",
+    "diet": ["Vegan", "Gluten Free", "Nuts Free"],
+    "img": "./img/Hummus-kawarma.jpg"
+  },
+  {
+    "id": "5",
+    "dish": "Cold Mezzah",
+    "name": "Labneh Cheese",
+    "ingredients": ["Bread", "Compote figs", "Yogurt Cheese", "Nigella seeds"],
+    "price": "15",
+    "diet": ["Vegan", "Gluten Free", "Nuts Free"],
+    "img": "./img/Hummus-kawarma.jpg"
+  },
+  {
+    "id": "6",
+    "dish": "Cold Mezzah",
+    "name": "Zeitan",
+    "ingredients": ["Olives", "Lemon", "Extra Virgen Olive Oil"],
+    "price": "8",
+    "diet": ["Vegan", "Gluten Free", "Nuts Free"],
+    "img": "./img/Hummus-kawarma.jpg"
+  },
+  {
+    "id": "7",
+    "dish": "Hot Mezzah",
+    "name": "Falafel",
+    "ingredients": [
+      "Chickpeas",
+      "Onion",
+      "Garlic",
+      "Falafel spices",
+      "Tahini Dressing"
+    ],
+    "price": "15",
+    "diet": ["Vegan", "Gluten Free", "Nuts Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "8",
+    "dish": "Hot Mezzah",
+    "name": "Patata Harra",
+    "ingredients": [
+      "Hand cut fried potato",
+      "Chilli dressing",
+      "Garlic",
+      "Coriander"
+    ],
+    "price": "14",
+    "amount": "4 pieces",
+    "diet": ["Vegan", "Gluten Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "9",
+    "dish": "Hot Mezzah",
+    "name": "Lamb Sajaq",
+    "ingredients": ["Minced lamb", "Spices", "Damascus Dressing"],
+    "price": "17",
+    "amount": "4 pieces",
+    "diet": ["Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "10",
+    "dish": "Hot Mezzah",
+    "name": "Kafta",
+    "ingredients": [
+      "Minced lamb",
+      "Parsley",
+      "Onion",
+      "Tomato",
+      "Home made tomato sauce"
+    ],
+    "price": "17",
+    "amount": "4 pieces",
+    "diet": ["Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "11",
+    "dish": "Hot Mezzah",
+    "name": "Fries",
+    "ingredients": ["Potato", "Sauces"],
+    "price": "7",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "12",
+    "dish": "Salads",
+    "name": "Fatoush",
+    "ingredients": [
+      "Lettuce",
+      "Cabbage",
+      "Tomato",
+      "Cucumber",
+      "Red onion",
+      "Spring onion",
+      "Coriander",
+      "Crispy bread",
+      "Pomegranate sauce",
+      "Lemon juice",
+      "Extra virgin olive oil"
+    ],
+    "price": "15",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/Zeitun.jpg"
+  },
+  {
+    "id": "13",
+    "dish": "Salads",
+    "name": "Tabuleh",
+    "ingredients": [
+      "Parsley",
+      "Tomato",
+      "Red onion",
+      "Mint",
+      "Crushed Wheat",
+      "Lemon Juice",
+      "Extra virgin olive oil"
+    ],
+    "price": "14",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/Zeitun.jpg"
+  },
+  {
+    "id": "14",
+    "dish": "Salads",
+    "name": "Shamander",
+    "ingredients": [
+      "Roasted beetroots",
+      "Green peas",
+      "Onion",
+      "Coriander",
+      "Tahini",
+      "Lemon Juice",
+      "Extra virgin olive oil"
+    ],
+    "price": "14",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/Zeitun.jpg"
+  },
+  {
+    "id": "15",
+    "dish": "Salads",
+    "name": "Zeitun",
+    "ingredients": [
+      "Lettuce",
+      "Rocket",
+      "Yellow cherry omato",
+      "Onion",
+      "Mint",
+      "Coriander",
+      "Feta Cheese",
+      "Olives",
+      "Lemon juice",
+      "Extra virgin olive oil"
+    ],
+    "price": "16",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/Zeitun.jpg"
+  },
+  {
+    "id": "16",
+    "dish": "Salads",
+    "name": "Adas",
+    "ingredients": [
+      "Brown Lentils",
+      "Onion",
+      "Parsley",
+      "Tomato",
+      "Mint",
+      "Date Syrup",
+      "Lemon juice",
+      "Extra virgin olive oil"
+    ],
+    "price": "14",
+    "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
+    "img": "./img/Zeitun.jpg"
+  },
+  {
+    "id": "17",
+    "dish": "Grill",
+    "name": "Shish Tawook",
+    "ingredients": [
+      "Bread",
+      "Chicken",
+      "Yoghurt",
+      "Chilli",
+      "Damascus spices",
+      "Garlic Sauces"
+    ],
+    "price": "23",
+    "diet": ["Nuts Free"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "18",
+    "dish": "Grill",
+    "name": "Lamb Shish",
+    "ingredients": [
+      "Bread",
+      "Lamb",
+      "Yoghurt",
+      "Chilli sauce",
+      "Damascus spices"
+    ],
+    "price": "25",
+    "diet": [],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "19",
+    "dish": "Grill",
+    "name": "Kebab Betenjan",
+    "ingredients": [
+      "Bread",
+      "Eggplant",
+      "Zucchini",
+      "Mushroom",
+      "Tomato Sauce"
+    ],
+    "price": "20",
+    "diet": ["Vegan"],
+    "img": "./img/falafel.jpg"
+  },
+  {
+    "id": "20",
+    "dish": "Desert",
+    "name": "Baklava",
+    "ingredients": [
+      "Filo Pastry",
+      "Homemade pistachio ice cream",
+      "Lemon sugar syrup"
+    ],
+    "price": "12",
+    "img": "./img/baklava.jpg"
+  },
+  {
+    "id": "21",
+    "dish": "Desert",
+    "name": "Osmalieeh",
+    "ingredients": ["Kadayif", "Bread cream", "Lemon sugar syrup"],
+    "price": "8",
+    "img": "./img/Osmaleh.jpg"
+  },
+  {
+    "id": "22",
+    "dish": "Desert",
+    "name": "Creme Brulle",
+    "ingredients": ["Rose water", "Orange Blossom", "Tahini shortbread"],
+    "price": "15",
+    "img": "./img/baklava.jpg"
+  },
+  {
+    "id": "23",
+    "dish": "Desert",
+    "name": "Rafi bar",
+    "ingredients": ["Oat", "Date caramel", "Peanuts", "Dark chocolate"],
+    "price": "15",
+    "diet": ["Vegan"],
+    "img": "./img/Rafibar.jpg"
+  }
+]
