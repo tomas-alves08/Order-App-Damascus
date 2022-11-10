@@ -2,9 +2,9 @@
 
 ## Deployed App
 
-App deployed used Firebase on below URL:
+Please find App deployed version URL below:
 
-### URL: https://damascus-app.web.app/
+### https://damascus-app.web.app/
 
 ---
 
