@@ -1,5 +1,11 @@
 # Damascus Order App : Front End Single Page Application
 
+## Deployed App
+
+App deployed used Firebase on below URL:
+
+### URL: https://damascus-app.web.app/
+
 ---
 
 ## Goal Of The Application
@@ -32,3 +38,5 @@ Another new hook used on this application was useContext. This one was actually 
 Other topics I learned while working on this project was how to work with Modals, by having different components overlaying other components. And as a consequence, I had to study and learn quite a lot of CSS to make this application look this way.
 
 And as part of this little journey, problem solving was hugely important as I had multiple bugs or unexpected results which I wisely used my planning, error message interpreting and logging skills to solve.
+
+The deployment is always a painful process for me and this one wouldn't be any different. It required me to do quite a big research on possible ways to deploy a front end app, which is way easier than a full stack app which uses database. And I concluded that Firebase would be the best option for a single page app deployment. After I had a project finished I realised that the configuration my app had would not work to deploy my app because I would need to have a script on my package.json file to create a build folder. But after researching and reading quite a bit, I manage to solve my problem, install firebase on my repo and deploy it.
