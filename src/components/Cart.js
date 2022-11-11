@@ -1,23 +1,22 @@
-import React, { useContext } from 'react'
-import StateContext from '../store/state-context'
+import React, { useContext } from "react";
+import StateContext from "../store/state-context";
 
 const Cart = () => {
   const { state, dispatch, setCartDisplay, setOrderDisplay } =
-    useContext(StateContext)
-  console.log('CART: ', state)
+    useContext(StateContext);
 
   const handleClickOutside = (e) => {
-    if (e.target.className === 'cart-page-container') {
-      setCartDisplay(false)
+    if (e.target.className === "cart-page-container") {
+      setCartDisplay(false);
     }
-  }
+  };
 
   const dispatchItem = (type, item, amount, price) => {
     return dispatch({
       type: type,
       action: { item, amount, price },
-    })
-  }
+    });
+  };
 
   return (
     <div className="cart-page-container" onClick={handleClickOutside}>
@@ -36,14 +35,14 @@ const Cart = () => {
               <div className="cart-btn-container">
                 <button
                   className="cart-btn"
-                  onClick={() => dispatchItem('ADD', dish.item, 1, dish.price)}
+                  onClick={() => dispatchItem("ADD", dish.item, 1, dish.price)}
                 >
                   +
                 </button>
                 <button
                   className="cart-btn btn-minus"
                   onClick={() =>
-                    dispatchItem('SUBTRACT', dish.item, 1, dish.price)
+                    dispatchItem("SUBTRACT", dish.item, 1, dish.price)
                   }
                 >
                   -
@@ -73,7 +72,7 @@ const Cart = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;

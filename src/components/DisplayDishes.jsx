@@ -8,8 +8,6 @@ const DisplayDishes = () => {
   const [input, setInput] = useState("");
   const { state, dispatch } = useContext(StateContext);
 
-  console.log("REDUCER: ", state);
-
   // FORM INPUT DATA
   const handleInput = (e) => {
     setInput(e.target.value);

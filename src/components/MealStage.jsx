@@ -5,8 +5,6 @@ const MealStage = ({ mealState, setMealState }) => {
   const mealsStagesObj = new Set(dishesArr.map((el) => el.dish));
   const mealsStagesArr = [...mealsStagesObj];
 
-  console.log("Meals: ", mealsStagesArr);
-
   return (
     <div className="meal-stage-container">
       {mealsStagesArr.map((stage) => (

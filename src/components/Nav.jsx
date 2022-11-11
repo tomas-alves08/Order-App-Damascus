@@ -1,24 +1,23 @@
-import React, { useContext, useState, useEffect } from 'react'
-import StateContext from './../store/state-context'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import React, { useContext, useState, useEffect } from "react";
+import StateContext from "./../store/state-context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
-  const { state, setCartDisplay } = useContext(StateContext)
-  const [btnHighlighted, setBtnHighlighted] = useState(false)
-  console.log('NAV: ', state)
+  const { state, setCartDisplay } = useContext(StateContext);
+  const [btnHighlighted, setBtnHighlighted] = useState(false);
 
-  const btnStyle = `button ${btnHighlighted ? 'bump' : null}`
+  const btnStyle = `button ${btnHighlighted ? "bump" : null}`;
 
   useEffect(() => {
     if (state.items.length === 0) {
-      return
+      return;
     } else {
-      setBtnHighlighted(true)
+      setBtnHighlighted(true);
     }
 
-    setTimeout(() => setBtnHighlighted(false), 300)
-  }, [state])
+    setTimeout(() => setBtnHighlighted(false), 300);
+  }, [state]);
 
   return (
     <>
@@ -38,7 +37,7 @@ const Nav = () => {
         <img className="background-img" src="./img/damascus.jpg" />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
