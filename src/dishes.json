@@ -52,7 +52,7 @@
     ],
     "price": "15",
     "diet": ["Vegan", "Gluten Free"],
-    "img": "./img/Hummus-kawarma.jpg"
+    "img": "./img/images/muhammara-23.jpg"
   },
   {
     "id": "4",
@@ -73,7 +73,7 @@
     ],
     "price": "16",
     "diet": ["Vegan", "Gluten Free", "Nuts Free"],
-    "img": "./img/Hummus-kawarma.jpg"
+    "img": "./img/images/baba-ganoush.jpg"
   },
   {
     "id": "5",
@@ -82,7 +82,7 @@
     "ingredients": ["Bread", "Compote figs", "Yogurt Cheese", "Nigella seeds"],
     "price": "15",
     "diet": ["Vegan", "Gluten Free", "Nuts Free"],
-    "img": "./img/Hummus-kawarma.jpg"
+    "img": "./img/images/labneh.jpg"
   },
   {
     "id": "6",
@@ -91,7 +91,7 @@
     "ingredients": ["Olives", "Lemon", "Extra Virgen Olive Oil"],
     "price": "8",
     "diet": ["Vegan", "Gluten Free", "Nuts Free"],
-    "img": "./img/Hummus-kawarma.jpg"
+    "img": "./img/images/zeitan.jpg"
   },
   {
     "id": "7",
@@ -121,7 +121,7 @@
     "price": "14",
     "amount": "4 pieces",
     "diet": ["Vegan", "Gluten Free"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/patata.jpg"
   },
   {
     "id": "9",
@@ -131,7 +131,7 @@
     "price": "17",
     "amount": "4 pieces",
     "diet": ["Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/lamb-sajaq.jpeg"
   },
   {
     "id": "10",
@@ -147,7 +147,7 @@
     "price": "17",
     "amount": "4 pieces",
     "diet": ["Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/kafta.jpg"
   },
   {
     "id": "11",
@@ -156,7 +156,7 @@
     "ingredients": ["Potato", "Sauces"],
     "price": "7",
     "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/fries.jpeg"
   },
   {
     "id": "12",
@@ -177,7 +177,7 @@
     ],
     "price": "15",
     "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/Zeitun.jpg"
+    "img": "./img/images/fatoush.jpg"
   },
   {
     "id": "13",
@@ -194,7 +194,7 @@
     ],
     "price": "14",
     "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/Zeitun.jpg"
+    "img": "./img/images/Tabbouleh.webp"
   },
   {
     "id": "14",
@@ -211,7 +211,7 @@
     ],
     "price": "14",
     "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/Zeitun.jpg"
+    "img": "./img/images/shamander.jpg"
   },
   {
     "id": "15",
@@ -249,7 +249,7 @@
     ],
     "price": "14",
     "diet": ["Vegan", "Dairy Free", "Gluten Free", "Nuts Free"],
-    "img": "./img/Zeitun.jpg"
+    "img": "./img/images/adas.jpg"
   },
   {
     "id": "17",
@@ -265,7 +265,7 @@
     ],
     "price": "23",
     "diet": ["Nuts Free"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/shish-tawook.jpg"
   },
   {
     "id": "18",
@@ -280,7 +280,7 @@
     ],
     "price": "25",
     "diet": [],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/lamb-shish.webp"
   },
   {
     "id": "19",
@@ -295,7 +295,7 @@
     ],
     "price": "20",
     "diet": ["Vegan"],
-    "img": "./img/falafel.jpg"
+    "img": "./img/images/kebab-betenjan.jpg"
   },
   {
     "id": "20",
@@ -323,7 +323,7 @@
     "name": "Creme Brulle",
     "ingredients": ["Rose water", "Orange Blossom", "Tahini shortbread"],
     "price": "15",
-    "img": "./img/baklava.jpg"
+    "img": "./img/images/creme-brulee.jpg"
   },
   {
     "id": "23",
